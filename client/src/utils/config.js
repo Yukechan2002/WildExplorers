@@ -1,1 +1,2 @@
-export const REACT_APP_API_URL = 'https://wildlens-nefp.onrender.com'
+export const REACT_APP_API_URL = import.meta.env.REACT_APP_API_URL
+
