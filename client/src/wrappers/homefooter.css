@@ -1,0 +1,91 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: black;
+}
+
+.footer .logo h5 {
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.footer .logo img {
+  width: 200px;
+}
+.footer .logo p {
+  margin-top: 25px;
+  width: 300px;
+  color: #ffffff;
+}
+
+.social__links span a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.quick-links,
+.quick-links2 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer__link-title {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.footer__quick-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+}
+
+.footer__quick-links h6 span {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footerparagraph {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.footer__quick-links {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text color */
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.footer__quick-links .list-group-item {
+  background-color: transparent; /* Transparent background for list items */
+  color: #ffffff; /* White text color */
+  padding: 10px 0; /* Add some padding */
+  border: none; /* Remove borders */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.footer__quick-links .list-group-item a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* White text color */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.footer__quick-links .list-group-item a:hover {
+  color: #f0f0f0; /* Lighter color on hover */
+}
+
+/* Title styling */
+.footer__link-title {
+  color: #ffffff; /* White text color */
+  margin-bottom: 15px; /* Space below the title */
+  font-size: 18px; /* Increase font size */
+}
