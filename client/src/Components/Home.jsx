@@ -40,7 +40,7 @@ const Home = () => {
                   <span className="highlight">
                     🌍 Travel nature's beauty 🌿 and resilience 🌟 shine
                     brightly.
-                  </span>{" "}
+                  </span>
                 </h1>
 
                 <p className="home-paragraph">

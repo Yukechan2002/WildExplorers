@@ -76,7 +76,7 @@ const HomeNav = () => {
           <Row>
             <div className="nav__wrapper d-flex align-items-center justify-content-between ">
               <div className="logo">
-                <img src={logoImg} alt="" />
+                <h1>WildExplorers</h1>
               </div>
 
               <div className="navigation" ref={menuRef} onClick={toggleMenu}>
