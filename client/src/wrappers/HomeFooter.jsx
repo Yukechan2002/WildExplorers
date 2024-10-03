@@ -53,7 +53,7 @@ const HomeFooter = () => {
           <Row>
             <Col lg={3}>
               <div className="logo mt-2">
-                <img src={logoImg} alt="" />
+                <h2 style={{ color: "white" }}>WildExplorers</h2>
                 <p className="footerparagraph">
                   Experience unparalleled quality and expertise, delivered with
                   precision and care, in every service we provide. Excellence is
