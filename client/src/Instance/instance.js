@@ -1,7 +1,7 @@
 import axios from "axios";
 import { REACT_APP_API_URL } from "../utils/config";
 
-const baseURL = REACT_APP_API_URL;
+const baseURL = 'https://wildlens-93c9.onrender.com/api';
 
 const instance = axios.create({
   baseURL,
