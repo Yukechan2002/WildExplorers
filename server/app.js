@@ -12,13 +12,8 @@ const config = require("./utils/config");
 
 const app = express();
 
-app.use(
-  cors({
-    origin: ["https://thewildexplorers.netlify.app", "http://localhost:5173"],
-    credentials: true, // Allow cookies and authentication headers
-  })
-);
-     
+app.use(cors());
+
 app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(express.json());
