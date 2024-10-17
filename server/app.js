@@ -12,7 +12,16 @@ const config = require("./utils/config");
 
 const app = express();
 
-app.use(cors());
+// Configure CORS
+const corsOptions = {
+    origin: 'https://thewildexplorers.netlify.app', // Specify your client app's origin
+    credentials: true, // Allow credentials to be included
+};
+
+app.use(cors(corsOptions));
+
+// Handle preflight requests
+app.options('*', cors(corsOptions));
 
 app.use(cookieParser());
 app.use(morgan("dev"));
